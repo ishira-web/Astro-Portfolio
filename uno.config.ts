@@ -60,6 +60,9 @@ export default defineConfig({
         800: "#A01B2B",
         900: "#891321",
       },
+      green :{
+        
+      }
     },
   },
   presets: [
