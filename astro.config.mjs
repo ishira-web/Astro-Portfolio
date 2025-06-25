@@ -18,11 +18,13 @@ export default defineConfig({
     UnoCSS({ injectReset: true }),
     icon(),
     svelte(),
+    netlify(),
   ],
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
   vite: {
+
     assetsInclude: "**/*.riv",
   },
 });
